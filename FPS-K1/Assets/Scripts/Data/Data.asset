@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a60054eeca6aaf24ebf15d349ffda4ea, type: 3}
+  m_Name: Data
+  m_EditorClassIdentifier: 
+  defaultHealthValue: 100
+  bulletLifeTime: 1
+  gunInfo:
+  - gunName: Pistol
+    gunType: 1
+    reloadTime: 3
+    clipCapacity: 8
+    positionInHands: {x: 0.2, y: 0.2, z: 0}
+    rotationInHands: {x: 0, y: 0, z: 0}
+    scaleInHands: {x: 1, y: 1, z: 1}
+    ammoLimit: 24
+    bulletPrefab: {fileID: 1184538254539591752, guid: 8027f9753de72c44d8c51a012b8d136d,
+      type: 3}
+    gunPrefab: {fileID: 2661617761970472659, guid: b890d9699a00ddc468762bdee042b802,
+      type: 3}
+    damage: 5
+    fireRate: 0.3
+    gunWeight: 1
+  - gunName: Rifle
+    gunType: 2
+    reloadTime: 3
+    clipCapacity: 24
+    positionInHands: {x: 0.2, y: 0.05, z: 0}
+    rotationInHands: {x: 0, y: 0, z: 0}
+    scaleInHands: {x: 1, y: 1, z: 1}
+    ammoLimit: 50
+    bulletPrefab: {fileID: 1184538254539591752, guid: 8027f9753de72c44d8c51a012b8d136d,
+      type: 3}
+    gunPrefab: {fileID: 3693784370179472002, guid: 07c50992b2eded5488d1e6422da004a8,
+      type: 3}
+    damage: 10
+    fireRate: 0.2
+    gunWeight: 2
+  - gunName: Sniper
+    gunType: 3
+    reloadTime: 1
+    clipCapacity: 12
+    positionInHands: {x: 0.2, y: 0.2, z: 0}
+    rotationInHands: {x: 0, y: 0, z: 0}
+    scaleInHands: {x: 1, y: 1, z: 1}
+    ammoLimit: 24
+    bulletPrefab: {fileID: 1184538254539591752, guid: 8027f9753de72c44d8c51a012b8d136d,
+      type: 3}
+    gunPrefab: {fileID: 6159511007477426333, guid: a0434dc8975757740b88708ec00cb9fd,
+      type: 3}
+    damage: 25
+    fireRate: 1
+    gunWeight: 2
+  - gunName: Launcher
+    gunType: 4
+    reloadTime: 3
+    clipCapacity: 1
+    positionInHands: {x: 0, y: 0, z: 0}
+    rotationInHands: {x: 0, y: 0, z: 0}
+    scaleInHands: {x: 0, y: 0, z: 0}
+    ammoLimit: 3
+    bulletPrefab: {fileID: 1184538254539591752, guid: 8027f9753de72c44d8c51a012b8d136d,
+      type: 3}
+    gunPrefab: {fileID: 1392462951959816653, guid: bd3ad3b0c3aab2640b3cb090024eae30,
+      type: 3}
+    damage: 50
+    fireRate: 1
+    gunWeight: 2
+  - gunName: Grenade
+    gunType: 0
+    reloadTime: 0
+    clipCapacity: 0
+    positionInHands: {x: 0, y: 0, z: 0}
+    rotationInHands: {x: 0, y: 0, z: 0}
+    scaleInHands: {x: 0, y: 0, z: 0}
+    ammoLimit: 0
+    bulletPrefab: {fileID: 0}
+    gunPrefab: {fileID: 0}
+    damage: 0
+    fireRate: 0
+    gunWeight: 0

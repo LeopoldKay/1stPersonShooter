@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 7056dacac49817f4dba326d989a6acc2
+labels:
+- Environment
+- Shader
+- Stylised
+- ShaderForge
+- Material
+- Toon
+- Grunge
+- Art
+timeCreated: 1435079548
+licenseType: Store
+ShaderImporter:
+  defaultTextures:
+  - _BaseTexture: {fileID: 2800000, guid: 703b7c3f27268004db9611dfe166c8c7, type: 3}
+  - _NormalMap: {fileID: 2800000, guid: 9d5b72830b95ae147884122eaeca9865, type: 3}
+  - _GrungeTexture: {fileID: 2800000, guid: 1ed1efa22ffe4684bacb3bbb61979aac, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
